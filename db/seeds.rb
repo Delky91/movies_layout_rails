@@ -21,3 +21,11 @@ Serie.create(name: 'Serie 2', synopsis: 'Sinopsis de la serie 2', director: 'Dir
 Serie.create(name: 'Serie 3', synopsis: 'Sinopsis de la serie 3', director: 'Director 3')
 Serie.create(name: 'Serie 4', synopsis: 'Sinopsis de la serie 4', director: 'Director 4')
 Serie.create(name: 'Serie 5', synopsis: 'Sinopsis de la serie 5', director: 'Director 5')
+
+DocumentaryFilm.create(name: 'Documentary 1', synopsis: 'Sinopsis del documentary 1', director: 'Director 1')
+DocumentaryFilm.create(name: 'Documentary 2', synopsis: 'Sinopsis del documentary 2', director: 'Director 2')
+DocumentaryFilm.create(name: 'Documentary 3', synopsis: 'Sinopsis del documentary 3', director: 'Director 3')
+DocumentaryFilm.create(name: 'Documentary 4', synopsis: 'Sinopsis del documentary 4', director: 'Director 4')
+DocumentaryFilm.create(name: 'Documentary 5', synopsis: 'Sinopsis del documentary 5', director: 'Director 5')
+DocumentaryFilm.create(name: 'Documentary 6', synopsis: 'Sinopsis del documentary 6', director: 'Director 6')
+DocumentaryFilm.create(name: 'Documentary 7', synopsis: 'Sinopsis del documentary 7', director: 'Director 7')

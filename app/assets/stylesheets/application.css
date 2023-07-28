@@ -24,6 +24,11 @@ body {
 	color: rgba(255, 255, 255, 0.8);
 }
 
+nav {
+	background-color: #030c17;
+	color: rgba(255, 255, 255, 0.8);
+}
+
 .card-custom {
 	background-color: hsla(0, 0%, 20%, 0.1);
 	backdrop-filter: blur(2rem);

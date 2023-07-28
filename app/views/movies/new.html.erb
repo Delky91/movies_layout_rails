@@ -1,5 +1,5 @@
-<div class="container">
-    <h2 class="text-center my-3">Insert a Movie to the database</h2>
+<div class="container mt-5 pt-3">
+    <h2 class="display-5 text-center my-3">Insert a Movie to the database</h2>
     <%= form_with model: @movie, url: movies_path, method: :post, class: "form" do |form| %>
       <div class="form-group">
         <%= form.label :name, "Movie Title", class: "control-label" %>

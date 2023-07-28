@@ -1,5 +1,5 @@
-<div class="container">
-    <h1 class="display-5 text-center">Series</h1>
+<div class="container mt-5 pt-3">
+    <h2 class="display-5 text-center">Series</h2>
     
     <div class="row">
         <% @series.each do |serie| %>
@@ -11,5 +11,8 @@
                 </div> 
             </div>
         <% end %>
+    </div>
+    <div>
+        <%= link_to 'Add Documentary', new_serie_path, class: "btn btn-primary" %>
     </div>
 </div>
