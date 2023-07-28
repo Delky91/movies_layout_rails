@@ -8,7 +8,7 @@ class DocumentaryFilmsController < ApplicationController
     if @documentary_film.save
       redirect_to documentary_films_path
     else
-      render :new
+      redirect_to new_documentary_film_path
     end
   end
 

@@ -8,7 +8,7 @@ class MoviesController < ApplicationController
     if @movie.save
       redirect_to movies_path
     else
-      render :new
+      redirect_to new_movie_path
     end
   end
 

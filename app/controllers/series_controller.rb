@@ -8,7 +8,7 @@ class SeriesController < ApplicationController
     if @serie.save
       redirect_to series_path
     else
-      render :new
+      redirect_to new_serie_path
     end
   end
 
