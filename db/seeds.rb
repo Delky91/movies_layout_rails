@@ -6,6 +6,18 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
+#lleno la base de dato de archivos Movies para mostrar
 Movie.create(name: 'Pelicula 1', synopsis: 'Sinopsis de la película 1', director: 'Director 1')
 Movie.create(name: 'Pelicula 2', synopsis: 'Sinopsis de la película 2', director: 'Director 2')
 Movie.create(name: 'Pelicula 3', synopsis: 'Sinopsis de la película 3', director: 'Director 3')
+Movie.create(name: 'Pelicula 4', synopsis: 'Sinopsis de la película 4', director: 'Director 4')
+Movie.create(name: 'Pelicula 5', synopsis: 'Sinopsis de la película 5', director: 'Director 5')
+Movie.create(name: 'Pelicula 6', synopsis: 'Sinopsis de la película 6', director: 'Director 6')
+Movie.create(name: 'Pelicula 7', synopsis: 'Sinopsis de la película 7', director: 'Director 7')
+Movie.create(name: 'Pelicula 8', synopsis: 'Sinopsis de la película 8', director: 'Director 8')
+
+Serie.create(name: 'Serie 1', synopsis: 'Sinopsis de la serie 1', director: 'Director 1')
+Serie.create(name: 'Serie 2', synopsis: 'Sinopsis de la serie 2', director: 'Director 2')
+Serie.create(name: 'Serie 3', synopsis: 'Sinopsis de la serie 3', director: 'Director 3')
+Serie.create(name: 'Serie 4', synopsis: 'Sinopsis de la serie 4', director: 'Director 4')
+Serie.create(name: 'Serie 5', synopsis: 'Sinopsis de la serie 5', director: 'Director 5')
